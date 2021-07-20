@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/itslilykim12/Book-Search-Engine/issues"
   },
-  "homepage": "https://github.com/itslilykim12/Book-Search-Engine#readme"
+  "homepage": "https://github.com/itslilykim12/Book-Search-Engine#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
 }
