@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useQuery, useMutation } from '@apollo/client';
+import React from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 
 //import { getMe, deleteBook } from '../utils/API';
@@ -40,7 +41,7 @@ const SavedBooks = () => {
           });
   
       // upon success, remove book's id from localStorage
-      deleteBookId(bookId);
+      removeBookId(bookId);
     } catch (err) {
       console.error(err);
     }
